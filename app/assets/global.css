@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* background-image: url (); */
 }
 
@@ -42,6 +42,7 @@ section.populated {
 
 .starter-text {
    padding: 0 80px;
+    font-size: 20px;
 }
 
 form {
@@ -58,8 +59,9 @@ input.question-box {
     width: 85%;
     padding: 10px;
     font-size: 15px;
-    color: #383838;
+    color: white;
     border: none;
+    background-color: #070707; 
 }
 
 input[type="submit"] {
@@ -68,7 +70,7 @@ input[type="submit"] {
     font-size: 15px;
     color: #fff;
     border: none;
-    background-color: #411b82;
+    background-color: #2e2e2e;
 }
 
 input:focus {
@@ -107,13 +109,13 @@ input:focus {
 
 .bubble.user {
     border-radius: 20px 20px 0 20px;
-    background-color: #E1F4FFFF;
+    /* background-color: #EDF3FE; */
     margin-left: auto;
 }
 
 .bubble.assistant {
     border-radius: 20px 20px 20px 0;
-    background-color: #dce7ff;
+    /* background-color: #dce7ff; */
     margin-right: auto;
 }
 
